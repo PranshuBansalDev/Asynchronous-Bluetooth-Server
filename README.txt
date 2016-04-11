@@ -1,1 +1,1 @@
-See the readme
+See the file "tutorial.pdf"
