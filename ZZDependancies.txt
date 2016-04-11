@@ -1,0 +1,14 @@
+import bluetooth - bluetooth library
+import bluetooth._bluetooth as bluez - low level API for bluetooth
+import datetime - timekeeping purposes
+import json - parsing for SQL database
+import os - forking etc
+import socket - establishing socket connections
+import struct - for RSSI detection
+import sys - exit, other system calls
+import time	- sleep/delay purposes
+import urllib - opening websites
+from bluetooth_globs import - file containing globals for each other file
+from bluetooth_rssi import get_closest_device - returns bluetooth address of closest device based on highest RSSI
+from bluetooth_rssi import get_devices - returns list of all near by bluetooth devices that are recognized by our system
+from bluetooth_rssi import get_my_bdaddr - returns the bluetooth address of "myself"
